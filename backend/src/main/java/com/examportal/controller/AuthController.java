@@ -20,8 +20,15 @@ public class AuthController {
             AuthDTO.LoginResponse response = authService.login(request);
             return ResponseEntity.ok(response);
         } catch (Exception e) {
+
+            e.printStackTrace(); // add this
+
             return ResponseEntity.badRequest()
-                    .body(new AuthDTO.ApiResponse(false, "Invalid username or password", null));
+                    .body(new AuthDTO.ApiResponse(
+                            false,
+                            e.getMessage(),
+                            null
+                    ));
         }
     }
 

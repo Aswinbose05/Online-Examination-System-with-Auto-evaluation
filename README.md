@@ -147,10 +147,6 @@ On startup, sample data is automatically created:
 
 ### Step 3 — Open the Frontend
 
-```bash
-cd frontend
-# Option 1: Open directly
-open index.html
 
 # Option 2: Use a local server (recommended - avoids CORS)
 python -m http.server 5500
