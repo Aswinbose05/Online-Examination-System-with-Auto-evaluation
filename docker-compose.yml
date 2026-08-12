@@ -49,7 +49,7 @@ services:
       SPRING_DATASOURCE_USERNAME: "sa"
       SPRING_DATASOURCE_PASSWORD: ""
 
-      APP_JWT_SECRET: "ExamPortalSecretKey2024CloudBasedNLPAutoEvaluationSystem"
+      APP_JWT_SECRET: ${APP_JWT_SECRET}
       APP_JWT_EXPIRATION: "86400000"
 
       NLP_SERVICE_URL: "http://nlp-service:5000"
