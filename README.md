@@ -368,3 +368,13 @@ Final Year Project — Computer Science / Information Technology
 **Project Title:** Cloud-Based Online Examination System with Auto Evaluation using NLP
 
 ---
+
+##Run
+
+docker compose down
+
+docker compose up --build
+
+openv
+
+http://localhost:8081
