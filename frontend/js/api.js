@@ -2,7 +2,7 @@
 //  Exam Portal - API Client
 // =====================================================
 
-const API_BASE = '/api';
+const API_BASE = 'https://exam-backend-3rtk.onrender.com/api';
 
 const api = {
     // ── Auth helpers ──
